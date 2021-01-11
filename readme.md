@@ -61,3 +61,11 @@ Start grafana container with mapped ports and volume
 ```shell
 docker run -d -p 3000:3000 --name=grafana -v volume-grafana:/var/lib/grafana grafana/grafana
 ```
+
+## Docker-compose
+
+To orchestrate this entire stack run
+
+```shell
+docker compose up -d
+```
